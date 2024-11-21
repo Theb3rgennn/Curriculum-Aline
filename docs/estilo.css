@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    margin: 20px;
+    font-family: 'Roboto', sans-serif;
+    background-color: #f9f9f9;
+}
+
+header {
+    text-align: center;
+    background-color: #ffffff; /* Morado pastel*/
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2)
+    
+}
+
+
+section {
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    background-color: #ffffff; /* Fondo morado pastel */
+    transition: transform 0.2s; /* Transición suave */
+}
+section {
+    transition: background-color 0.3s, transform 0.3s, color 0.3s; /* Añadir transición para el color del texto */
+}
+
+section:hover {
+    background-color: #f1b8ff; /* Cambia el color de fondo al pasar el ratón */
+    transform: scale(1.02);
+    color: #6b0351; /* Cambia el color del texto al pasar el ratón */
+}
+
+section:hover {
+    transform: scale(1.05); /* Efecto de aumento al pasar el ratón */
+}
+
+h1, h2, h3, p {
+    margin-left: 15px;
+}
+h1 {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    background-color: #f1b8ff; /* Fondo Morado Pastel */
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.contact-info {
+    font-weight: bold;
+    font-style: italic; /* Estilo en cursiva */
+}
+
+a {
+    color: #5f0981; /* Color verde para enlaces */
+    text-decoration: none; /* Sin subrayado */
+    transition: color 0.3s; /* Transición de color al pasar el ratón */
+}
+a:hover {
+    color: #8812e9; /* Color rosado al pasar el ratón */
+}
+
+.highlight {
+    background-color: #f54bd8; /* Fondo rosado para destacar */
+    padding: 10px;
+    border-radius: 5px;
+}
